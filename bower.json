@@ -1,0 +1,10 @@
+{
+  "name": "mark-my-style",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "latest",
+    "enquire": "latest",
+    "modernizr": "latest"
+  },
+  "private": true
+}

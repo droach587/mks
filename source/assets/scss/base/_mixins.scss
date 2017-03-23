@@ -1,0 +1,31 @@
+//  ==========================================================================
+//  Global Mixins File 
+//  ==========================================================================
+
+    @mixin mx-center-container($width, $minWidth){
+  		float: left;
+  		position: relative;
+  		display: block;
+  		width: #{$width}px;
+  		min-width: #{$minWidth}px !important;
+  		margin-left: -$width*.5+px;
+  		left: 50%;
+  	}
+
+    @mixin mx-font-face($name, $font-files, $eot: false, $weight: false, $style: false) {
+      $iefont: unquote("#{$eot}?#iefix&?v=4.0.3");
+      @font-face {
+        font-family: quote($name);
+        @if $eot {
+          src: font-url($eot);
+          $font-files: font-url($iefont) unquote("format('embedded-opentype')"), $font-files;
+        }
+        src: $font-files + unquote('?v=4.0.3');
+        @if $weight {
+          font-weight: $weight;
+        }
+        @if $style {
+          font-style: $style;
+        }
+      }
+    }

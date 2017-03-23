@@ -1,0 +1,51 @@
+{
+    "name": "mark-my-style",
+    "description": "Yeoman Rokkan front end build using assemble and grunt..",
+    "version": "0.1.0",
+    "homepage": "https://github.com/rokkan/mark-my-style",
+    "author": {
+        "name": "David Roach",
+        "url": "http://github.com/rokkan/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rokkan/mark-my-style.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rokkan/mark-my-style/issues"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "test": "grunt assemble"
+    },
+    "devDependencies": {
+        "assemble": "^0.4.42",
+        "bower": "^1.4.1",
+        "chalk": "^1.1.0",
+        "grunt": "^0.4.5",
+        "gulp" : "^3.9.0",
+        "grunt-bower-concat": "^0.5.0",
+        "grunt-cache-breaker": "^2.0.1",
+        "grunt-contrib-clean": "^0.6.0",
+        "grunt-contrib-compass": "^1.0.3",
+        "grunt-contrib-concat": "^0.5.1",
+        "grunt-contrib-copy": "^0.8.0",
+        "grunt-contrib-imagemin": "^1.0.0",
+        "grunt-contrib-uglify": "^0.9.1",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-deploy": "^0.1.7",
+        "grunt-ftp-deploy": "^0.1.10",
+        "grunt-hologram": "0.0.7",
+        "grunt-modernizr": "^0.6.1",
+        "grunt-newer": "^1.1.1",
+        "grunt-notify": "^0.4.1",
+        "grunt-string-replace": "^1.2.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/rokkan/mark-my-style/blob/master/LICENSE-MIT"
+    }],
+    "keywords": ["assemble", "templates", "handlebars", "site generator", "site builder", "grunt"]
+}
