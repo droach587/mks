@@ -19,9 +19,6 @@
 }());
 
 if (window.jQuery) {
-    $(document).ready(function() {
-        testJS.init({});
-    });
 } else {
     console.log('%c jQuery dependecy is not loaded, please check the order of your source and concatenation.', 'background: #black; color: #00FFF3');
 }

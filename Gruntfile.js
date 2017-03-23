@@ -52,11 +52,11 @@ module.exports = function(grunt) {
                     sassDir: '<%= config.src %>/assets/scss',
                     cssDir: '<%= config.build %>/assets/css',
                     outputStyle: 'compressed',
-                    imagesDir: "img",
-                    imagesPath: "<%= config.src %>/assets/img",
+                    imagesDir: "assets/img",
+                    imagesPath: "<%= config.build %>/assets/img",
                     generatedImagesDir: 'img',
                     fontsDir: "assets/fonts",
-                    fontsPath: "<%= config.src %>/assets/fonts",
+                    fontsPath: "<%= config.build %>/assets/fonts",
                     require: ['breakpoint', 'sass-globbing'],
                     sourcemap: true
                 }
